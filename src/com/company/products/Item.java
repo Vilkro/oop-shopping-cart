@@ -9,12 +9,19 @@ public class Item {
     public Item(){
 
     }
+
+    public Item(String name, double price, int rating){
+        setName(name);
+        setPrice(price);
+        setRating(rating);
+    }
     public Item(int id, String name, double price, int rating){
         setId(id);
         setName(name);
         setPrice(price);
         setRating(rating);
     }
+
     public int getId() {
         return id;
     }
