@@ -56,4 +56,11 @@ public class ui {
         String temp = controller.getAllItems();
         System.out.println(temp);
     }
+
+    public void getItemById(){
+        System.out.println("Enter product id");
+        int id = scanner.nextInt();
+        String temp = controller.getItem(id);
+        System.out.println(temp);
+    }
 }
