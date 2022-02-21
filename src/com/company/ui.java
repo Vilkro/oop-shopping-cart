@@ -2,7 +2,6 @@ package com.company;
 
 import com.company.cart;
 
-import java.sql.Date;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -19,11 +18,11 @@ public class ui {
         while (true) {
             System.out.println();
             System.out.println("Select option:");
-            System.out.println("1. ");
-            System.out.println("2. ");
-            System.out.println("3. ");
-            System.out.println("4. ");
-            System.out.println("5. ");
+            System.out.println("1. Get product by name");
+            System.out.println("2. Get product by id");
+            System.out.println("3. Add new product");
+            System.out.println("4. Remove product");
+            System.out.println("5. Get products list");
             System.out.println("0. Exit");
             System.out.println();
             try {
@@ -31,15 +30,15 @@ public class ui {
                 int option = scanner.nextInt();
                 switch (option) {
                     case 1:
-                        ff();
+                        getItemByName();
                     case 2:
-                        ff();
+                        getItemById();
                     case 3:
-                        ff();
+                        addItem();
                     case 4:
-                        ff();
+                        removeItemById();
                     case 5:
-                        ff();
+                        getAllItams();
                     default:
                         break;
                 }
@@ -52,4 +51,3 @@ public class ui {
             System.out.println("------------------------------------------------------------------------------------");
         }
     }
-}
