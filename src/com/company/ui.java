@@ -38,7 +38,7 @@ public class ui {
                     case 4:
                         removeItemById();
                     case 5:
-                        getAllItams();
+                        getAllItems();
                     default:
                         break;
                 }
@@ -51,3 +51,9 @@ public class ui {
             System.out.println("------------------------------------------------------------------------------------");
         }
     }
+
+    public void getAllItems(){
+        String temp = controller.getAllItems();
+        System.out.println(temp);
+    }
+}
