@@ -77,4 +77,15 @@ public class ui {
         String temp = controller.removeItemById(id);
         System.out.println(temp);
     }
+
+    public void addItem(){
+        System.out.println("Please enter name");
+        String name = scanner.next();
+        System.out.println("Please enter price");
+        double price = scanner.nextDouble();
+        System.out.println("Please enter rating");
+        int rating = scanner.nextInt();
+        String temp = controller.addItem(name, price, rating);
+        System.out.println(temp);
+    }
 }
