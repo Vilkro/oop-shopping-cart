@@ -63,4 +63,18 @@ public class ui {
         String temp = controller.getItem(id);
         System.out.println(temp);
     }
+
+    public void getItemByName(){
+        System.out.println("Enter product name");
+        String name = scanner.next();
+        String temp = controller.getItemByName(name);
+        System.out.println(temp);
+    }
+
+    public void removeItemById(){
+        System.out.println("Enter id");
+        int id = scanner.nextInt();
+        String temp = controller.removeItemById(id);
+        System.out.println(temp);
+    }
 }
