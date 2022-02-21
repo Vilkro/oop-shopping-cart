@@ -15,7 +15,7 @@ public class Main {
         IDB db = new postresql();
         prlist repo = new repository(db);
         cart controller = new cart(repo);
-        ui userinterface = new ui(controller);
-        userinterface.launch();
+        ui userInterface = new ui(controller);
+        userInterface.launch();
     }
 }
