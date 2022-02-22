@@ -4,6 +4,7 @@ import com.company.products.Item;
 
 public class Sandwich extends Item{
     Item Sandwich = new Item();
+    private int id;
     private String name;
     private double price;
     private int rating;
@@ -17,6 +18,13 @@ public class Sandwich extends Item{
 
     public Sandwich(String name, double price, int rating){
         super();
+        this.name = name;
+        this.price = price;
+        this.rating = rating;
+    }
+    public Sandwich(int id, String name, double price, int rating){
+        super();
+        this.id = id;
         this.name = name;
         this.price = price;
         this.rating = rating;
@@ -55,7 +63,8 @@ public class Sandwich extends Item{
     @Override
     public String toString() {
         return "Sandwich{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", price=" + price +
                 ", rating=" + rating +
                 '}';
