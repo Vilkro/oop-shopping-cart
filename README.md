@@ -1,8 +1,9 @@
-# oop-shopping-cart
-README
-Hello, my name is Madi and this is an OOP project
-I tried to make a products database for online shopping website, shopping cart kinda
-Here I'll upload only the source code of backend since I don't wanna use server and my website is bad ngl
+# Shopping cart
+Hello, my name is Madi and this is an OOP project.
+
+I tried to make a products database for online shopping website, shopping cart kinda.
+
+Here I'll upload only the source code of backend since I don't wanna use server and my website is bad ngl.
 
 I had no time to make UI, so there's only application that has 5 options:
   1. Get a product
@@ -13,9 +14,9 @@ I had no time to make UI, so there's only application that has 5 options:
  and the exit button.
 
 The project utilizes:
-  Java
-  PostgreSQL
-  Encapsulation
-  Inheritance
-  Polymorphism
+  1. Java
+  2. PostgreSQL
+  3. Encapsulation
+  4. Inheritance
+  5. Polymorphism
   and maybe something more
